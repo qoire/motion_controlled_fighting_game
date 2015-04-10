@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Wed Feb 25 23:48:07 2015
+# Process ID: 5372
+# Log file: C:/Xilinx_proj/ip_repo/ovtop/vivado.log
+# Journal file: C:/Xilinx_proj/ip_repo/ovtop\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Xilinx_proj\ip_repo\ovtop\ovtop.xpr}
+Scanning sources...
+Finished scanning sources
+ipx::open_ipxact_file {C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/component.xml}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v:1]
+[Wed Feb 25 23:59:08 2015] Launched synth_1...
+Run output will be captured here: C:/Xilinx_proj/ip_repo/ovtop/ovtop.runs/synth_1/runme.log
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v:1]
+[Thu Feb 26 01:04:44 2015] Launched synth_1...
+Run output will be captured here: C:/Xilinx_proj/ip_repo/ovtop/ovtop.runs/synth_1/runme.log
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v:1]
+[Thu Feb 26 02:23:59 2015] Launched synth_1...
+Run output will be captured here: C:/Xilinx_proj/ip_repo/ovtop/ovtop.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v:1]
+[Thu Feb 26 02:24:43 2015] Launched synth_1...
+Run output will be captured here: C:/Xilinx_proj/ip_repo/ovtop/ovtop.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_AV_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_Controller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/debounce.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_capture.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v" into library work [C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v:1]
+[Thu Feb 26 02:25:29 2015] Launched synth_1...
+Run output will be captured here: C:/Xilinx_proj/ip_repo/ovtop/ovtop.runs/synth_1/runme.log
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file {C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v} -top_module_name {ov7670_top}
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file {C:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top.v} -top_module_name {ov7670_top}
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 26 02:31:59 2015...

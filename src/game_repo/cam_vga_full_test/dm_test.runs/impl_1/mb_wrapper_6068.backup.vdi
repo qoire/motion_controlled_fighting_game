@@ -1,0 +1,1103 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sun Mar 29 04:23:53 2015
+# Process ID: 3784
+# Log file: D:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper.vdi
+# Journal file: D:/game_repo/cam_vga_full_test/dm_test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mb_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 491 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from D:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from D:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_microblaze_0_0/mb_microblaze_0_0.xdc] for cell 'mb_i/microblaze_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_microblaze_0_0/mb_microblaze_0_0.xdc] for cell 'mb_i/microblaze_0/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_dlmb_v10_0/mb_dlmb_v10_0.xdc] for cell 'mb_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_dlmb_v10_0/mb_dlmb_v10_0.xdc] for cell 'mb_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_ilmb_v10_0/mb_ilmb_v10_0.xdc] for cell 'mb_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_ilmb_v10_0/mb_ilmb_v10_0.xdc] for cell 'mb_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_microblaze_0_axi_intc_0/mb_microblaze_0_axi_intc_0.xdc] for cell 'mb_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_microblaze_0_axi_intc_0/mb_microblaze_0_axi_intc_0.xdc] for cell 'mb_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mdm_1_0/mb_mdm_1_0.xdc] for cell 'mb_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mdm_1_0/mb_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1072.438 ; gain = 468.781
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mdm_1_0/mb_mdm_1_0.xdc] for cell 'mb_i/mdm_1/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0.xdc] for cell 'mb_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0.xdc:56]
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0.xdc] for cell 'mb_i/clk_wiz_1/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0_board.xdc] for cell 'mb_i/clk_wiz_1/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0_board.xdc] for cell 'mb_i/clk_wiz_1/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_clk_wiz_1_100M_0/mb_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_clk_wiz_1_100M_0/mb_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_clk_wiz_1_100M_0/mb_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_clk_wiz_1_100M_0/mb_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_uartlite_0_1/mb_axi_uartlite_0_1.xdc] for cell 'mb_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_uartlite_0_1/mb_axi_uartlite_0_1.xdc] for cell 'mb_i/axi_uartlite_0/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_uartlite_0_1/mb_axi_uartlite_0_1_board.xdc] for cell 'mb_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_uartlite_0_1/mb_axi_uartlite_0_1_board.xdc] for cell 'mb_i/axi_uartlite_0/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc] for cell 'mb_i/mig_7series_0'
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc] for cell 'mb_i/mig_7series_0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0_board.xdc] for cell 'mb_i/mig_7series_0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0_board.xdc] for cell 'mb_i/mig_7series_0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_vdma_0_0/mb_axi_vdma_0_0.xdc] for cell 'mb_i/axi_vdma_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_vdma_0_0/mb_axi_vdma_0_0.xdc] for cell 'mb_i/axi_vdma_0/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_mig_7series_0_81M_0/mb_rst_mig_7series_0_81M_0.xdc] for cell 'mb_i/rst_mig_7series_0_81M'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_mig_7series_0_81M_0/mb_rst_mig_7series_0_81M_0.xdc] for cell 'mb_i/rst_mig_7series_0_81M'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_mig_7series_0_81M_0/mb_rst_mig_7series_0_81M_0_board.xdc] for cell 'mb_i/rst_mig_7series_0_81M'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_rst_mig_7series_0_81M_0/mb_rst_mig_7series_0_81M_0_board.xdc] for cell 'mb_i/rst_mig_7series_0_81M'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_tft_0_1/mb_axi_tft_0_1.xdc] for cell 'mb_i/axi_tft_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_tft_0_1/mb_axi_tft_0_1.xdc] for cell 'mb_i/axi_tft_0/U0'
+Parsing XDC File [D:/game_repo/cam_vga_full_test/dm_test.srcs/constrs_1/new/dm.xdc]
+Finished Parsing XDC File [D:/game_repo/cam_vga_full_test/dm_test.srcs/constrs_1/new/dm.xdc]
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_microblaze_0_axi_intc_0/mb_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_microblaze_0_axi_intc_0/mb_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_vdma_0_0/mb_axi_vdma_0_0_clocks.xdc] for cell 'mb_i/axi_vdma_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_vdma_0_0/mb_axi_vdma_0_0_clocks.xdc] for cell 'mb_i/axi_vdma_0/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_tft_0_1/mb_axi_tft_0_1_clocks.xdc] for cell 'mb_i/axi_tft_0/U0'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_axi_tft_0_1/mb_axi_tft_0_1_clocks.xdc] for cell 'mb_i/axi_tft_0/U0'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_0/mb_auto_ds_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_0/mb_auto_ds_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_1/mb_auto_ds_1_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_1/mb_auto_ds_1_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_cc_0/mb_auto_cc_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m02_couplers/auto_cc/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_cc_0/mb_auto_cc_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m02_couplers/auto_cc/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_2/mb_auto_ds_2_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_2/mb_auto_ds_2_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_3/mb_auto_ds_3_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_3/mb_auto_ds_3_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_4/mb_auto_ds_4_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_ds_4/mb_auto_ds_4_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_0/mb_auto_us_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_0/mb_auto_us_0_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_1/mb_auto_us_1_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_1/mb_auto_us_1_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_2/mb_auto_us_2_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_2/mb_auto_us_2_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst'
+Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_3/mb_auto_us_3_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_auto_us_3/mb_auto_us_3_clocks.xdc] for cell 'mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Generating merged BMM file for the design top 'mb_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 410 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 104 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 254 instances
+
+link_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 1099.434 ; gain = 916.621
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.736 . Memory (MB): peak = 1099.434 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 160f3ca19
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1099.434 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 10 inverter(s).
+INFO: [Opt 31-10] Eliminated 1913 cells.
+Phase 2 Constant Propagation | Checksum: 149e7ceab
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1099.434 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 6989 unconnected nets.
+INFO: [Opt 31-11] Eliminated 10511 unconnected cells.
+Phase 3 Sweep | Checksum: faefec59
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1099.434 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: faefec59
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:19 . Memory (MB): peak = 1099.434 ; gain = 0.000
+Implement Debug Cores | Checksum: f2dbbb64
+Logic Optimization | Checksum: f2dbbb64
+
+Starting Power Optimization Task
+
+Starting PowerOpt TimerUpdates Task
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending PowerOpt TimerUpdates Task | Checksum: faefec59
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1099.434 ; gain = 0.000
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 18 has been updated to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 2 newly gated: 0 Total Ports: 36
+Ending Power Optimization Task | Checksum: ae742581
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1232.676 ; gain = 133.242
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1232.676 ; gain = 133.242
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.407 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Command: place_design -directive ExtraPostPlacementOpt
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'ExtraPostPlacementOpt' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1.1 Mandatory Logic Optimization | Checksum: 33b6b3b2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.2 Build Super Logic Region (SLR) Database
+Phase 1.1.2 Build Super Logic Region (SLR) Database | Checksum: 33b6b3b2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.3 Add Constraints
+Phase 1.1.3 Add Constraints | Checksum: 33b6b3b2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.4 Build Shapes/ HD Config
+
+Phase 1.1.4.1 Build Macros
+Phase 1.1.4.1 Build Macros | Checksum: 6c7abb47
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1.4 Build Shapes/ HD Config | Checksum: 6c7abb47
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.5.1 Pre-Place Cells
+Phase 1.1.5.1 Pre-Place Cells | Checksum: a575203a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.5.2 Implementation Feasibility check
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [d:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1.5.2 Implementation Feasibility check | Checksum: a575203a
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1232.676 ; gain = 0.000
+WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	OV7670_PCLK_IBUF_inst (IBUF.O) is locked to IOB_X0Y121
+	OV7670_PCLK_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y2
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+
+Phase 1.1.5.3 Implementation Feasibility check On IDelay
+Phase 1.1.5.3 Implementation Feasibility check On IDelay | Checksum: a575203a
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 4ceb0407
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.6 Build Placer Netlist Model
+
+Phase 1.1.6.1 Place Init Design
+
+Phase 1.1.6.1.1 Build Clock Data
+Phase 1.1.6.1.1 Build Clock Data | Checksum: 4df4b082
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:32 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1.6.1 Place Init Design | Checksum: 8bd0a6d3
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:33 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1.6 Build Placer Netlist Model | Checksum: 8bd0a6d3
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:33 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 1.1.7 Constrain Clocks/Macros
+
+Phase 1.1.7.1 Constrain Global/Regional Clocks
+Phase 1.1.7.1 Constrain Global/Regional Clocks | Checksum: 8bd0a6d3
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:34 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1.7 Constrain Clocks/Macros | Checksum: 8bd0a6d3
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:34 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1.1 Placer Initialization Core | Checksum: 8bd0a6d3
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:34 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 8bd0a6d3
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:34 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: e7079be0
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:03 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: e7079be0
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:04 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1511332c6
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:12 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 156dbbf34
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:13 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 3.4 Timing Path Optimizer
+Phase 3.4 Timing Path Optimizer | Checksum: 12592d836
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:16 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 3.5 Commit Small Macros & Core Logic
+Phase 3.5 Commit Small Macros & Core Logic | Checksum: aa981120
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:27 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: aa981120
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:29 . Memory (MB): peak = 1232.676 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: aa981120
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:29 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 PCOPT Shape updates
+Phase 4.1 PCOPT Shape updates | Checksum: 146da8a70
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:01:29 . Memory (MB): peak = 1232.676 ; gain = 0.000
+
+Phase 4.2 Post Placement Optimization
+
+Phase 4.2.1 Post Placement Timing Optimization
+
+Phase 4.2.1.1 Restore Best Placement
+Phase 4.2.1.1 Restore Best Placement | Checksum: 17b215a78
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:01:58 . Memory (MB): peak = 1236.699 ; gain = 4.023
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.312. For the most accurate timing information please run report_timing.
+Phase 4.2.1 Post Placement Timing Optimization | Checksum: 17b215a78
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:01:58 . Memory (MB): peak = 1236.699 ; gain = 4.023
+Phase 4.2 Post Placement Optimization | Checksum: 17b215a78
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:01:58 . Memory (MB): peak = 1236.699 ; gain = 4.023
+
+Phase 4.3 Commit Small Macros & Core Logic
+Phase 4.3 Commit Small Macros & Core Logic | Checksum: 1522bc45f
+
+Time (s): cpu = 00:02:46 ; elapsed = 00:02:04 . Memory (MB): peak = 1246.574 ; gain = 13.898
+
+Phase 4.4 Post Placement Optimization
+
+Phase 4.4.1 Post Placement Timing Optimization
+
+Phase 4.4.1.1 Restore Best Placement
+Phase 4.4.1.1 Restore Best Placement | Checksum: 898ea759
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:29 . Memory (MB): peak = 1246.574 ; gain = 13.898
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.209. For the most accurate timing information please run report_timing.
+Phase 4.4.1 Post Placement Timing Optimization | Checksum: 898ea759
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:29 . Memory (MB): peak = 1246.574 ; gain = 13.898
+Phase 4.4 Post Placement Optimization | Checksum: 898ea759
+
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:29 . Memory (MB): peak = 1246.574 ; gain = 13.898
+
+Phase 4.5 Post Placement Optimization
+
+Phase 4.5.1 Post Placement Timing Optimization
+
+Phase 4.5.1.1 Restore Best Placement
+Phase 4.5.1.1 Restore Best Placement | Checksum: 188f740dc
+
+Time (s): cpu = 00:03:35 ; elapsed = 00:02:45 . Memory (MB): peak = 1246.574 ; gain = 13.898
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.209. For the most accurate timing information please run report_timing.
+Phase 4.5.1 Post Placement Timing Optimization | Checksum: 188f740dc
+
+Time (s): cpu = 00:03:35 ; elapsed = 00:02:46 . Memory (MB): peak = 1246.574 ; gain = 13.898
+Phase 4.5 Post Placement Optimization | Checksum: 188f740dc
+
+Time (s): cpu = 00:03:35 ; elapsed = 00:02:46 . Memory (MB): peak = 1246.574 ; gain = 13.898
+
+Phase 4.6 Post Placement Cleanup
+Phase 4.6 Post Placement Cleanup | Checksum: 188f740dc
+
+Time (s): cpu = 00:03:35 ; elapsed = 00:02:46 . Memory (MB): peak = 1246.574 ; gain = 13.898
+
+Phase 4.7 Placer Reporting
+
+Phase 4.7.1 Restore STA
+Phase 4.7.1 Restore STA | Checksum: 188f740dc
+
+Time (s): cpu = 00:03:35 ; elapsed = 00:02:46 . Memory (MB): peak = 1246.574 ; gain = 13.898
+Phase 4.7 Placer Reporting | Checksum: 188f740dc
+
+Time (s): cpu = 00:03:37 ; elapsed = 00:02:47 . Memory (MB): peak = 1246.574 ; gain = 13.898
+
+Phase 4.8 Final Placement Cleanup
+Phase 4.8 Final Placement Cleanup | Checksum: 19f036f99
+
+Time (s): cpu = 00:03:37 ; elapsed = 00:02:47 . Memory (MB): peak = 1246.574 ; gain = 13.898
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19f036f99
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:02:47 . Memory (MB): peak = 1246.574 ; gain = 13.898
+Ending Placer Task | Checksum: e0410ffc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:02:47 . Memory (MB): peak = 1246.574 ; gain = 13.898
+INFO: [Common 17-83] Releasing license: Implementation
+40 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:03:40 ; elapsed = 00:02:49 . Memory (MB): peak = 1246.574 ; gain = 13.898
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1246.574 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1246.574 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.419 . Memory (MB): peak = 1246.574 ; gain = 0.000
+Command: phys_opt_design -directive AlternateFlowWithRetiming
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AlternateFlowWithRetiming
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+Phase 1 Physical Synthesis Initialization | Checksum: 1a77ccd79
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1246.574 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1246.574 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.296 | TNS=-11.304 |
+
+Phase 2 Fanout Optimization
+INFO: [Physopt 32-76] Pass 1. Identified 2 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net mb_i/delta_calc_0/inst/delta_calc_v1_0_S00_AXI_inst/slv_reg_wren. Replicated 1 times.
+INFO: [Physopt 32-81] Processed net mb_i/delta_calc_0/inst/delta_calc_v1_0_M00_AXI_inst/axi_wvalid0. Replicated 1 times.
+INFO: [Physopt 32-29] End Pass 1. Optimized 2 nets. Created 2 new instances.
+
+Phase 2 Fanout Optimization | Checksum: 2a332a892
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1247.723 ; gain = 1.148
+
+Phase 3 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 300 candidate nets for placement-based optimization.
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_251_in.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_8
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word.  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_7.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_7
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/pop_si_data.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/USE_RTL_CURR_WORD.first_word_q_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wlast.  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wlast_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[1]_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_length_counter_1[3]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/length_counter_1[3]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/s_axi_wready.  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/s_axi_wready_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_6.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_6
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[4]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[4]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[2].  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[2]_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_3.  Did not re-place instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[2]_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[2]_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_2__0.  Re-placed instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[2]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[2]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/s_axi_wready.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/s_axi_wready_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[4]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[4]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0].  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/n_0_USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[0]_INST_0_i_5.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0_i_5
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[2].  Re-placed instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/current_word_1[2]_i_1__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[21].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[21]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_current_word_1[2]_i_2__0.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/current_word_1[2]_i_2__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_s_axi_wready_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/s_axi_wready_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[2]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[2]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[0]_INST_0_i_8.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0_i_8
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[3]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[3]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wlast.  Re-placed instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wlast_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_length_counter_1[3]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/length_counter_1[3]_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[25].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[25]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[3]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[3]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[1]_INST_0_i_5.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0_i_5
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[1]_INST_0_i_8.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0_i_8
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/pop_si_data.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/USE_RTL_CURR_WORD.first_word_q_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3].  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_4
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word.  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_11.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_11
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/s_axi_wready.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/s_axi_wready_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[0]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0_i_4
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wlast.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wlast_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_length_counter_1[3]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/length_counter_1[3]_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[4]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[4]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[1]_INST_0_i_4.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[2]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[2]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[3].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[3]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[3].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[3]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[22].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[22]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[7]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[7]_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[7]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[7]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[4]_i_2__0.  Did not re-place instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[4]_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_15.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_15
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[3].  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[3]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_5.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_5
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wlast.  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wlast_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_length_counter_1[3]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/length_counter_1[3]_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/s_axi_wready.  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/s_axi_wready_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_13.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_13
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[1].  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/current_word_1[1]_i_1__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_s_axi_wready_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/s_axi_wready_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[2].  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/current_word_1[2]_i_1__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[2].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[2]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_current_word_1[2]_i_2__0.  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/current_word_1[2]_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_s_axi_wready_INST_0_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/s_axi_wready_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[2].  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/current_word_1[2]_i_1__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_4
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_current_word_1[2]_i_2__0.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/current_word_1[2]_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_3.  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[3]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[3]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word.  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_10.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_10
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/s_axi_wready.  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/s_axi_wready_INST_0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[1]_INST_0_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/m_axi_wlast.  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/m_axi_wlast_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_length_counter_1[3]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/length_counter_1[3]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_m_axi_wlast_INST_0_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/m_axi_wlast_INST_0_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[2].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[2]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[0]_INST_0_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[0]_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word.  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[4]_i_2__0.  Did not re-place instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[4]_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[25].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[25]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_5.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_5
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[25].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[25]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_2
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[2].  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/current_word_1[2]_i_1__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_current_word_1[2]_i_2__0.  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/current_word_1[2]_i_2__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_s_axi_wready_INST_0_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/s_axi_wready_INST_0_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/current_word_1[1]_i_1__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[0]_INST_0_i_9.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[0]_INST_0_i_9
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_3.  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[20].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[20]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[21].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[21]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[3].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[3]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[20].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[20]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[1]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[2]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[2]_INST_0_i_4
+INFO: [Physopt 32-663] Processed net mb_i/axi_tft_0/U0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WRITE_MMAP_SKID_BUF/sig_data_reg_out_en.  Re-placed instance mb_i/axi_tft_0/U0/sig_data_reg_out[31]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/s_axi_wready.  Re-placed instance mb_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/s_axi_wready_INST_0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[25].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[25]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_2.  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[1]_INST_0_i_9.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[1]_INST_0_i_9
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[22].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[22]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/n_0_USE_RTL_ADDR.addr_q[4]_i_2__0.  Did not re-place instance mb_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/USE_RTL_ADDR.addr_q[4]_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_4
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_3
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[2].  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/current_word_1[2]_i_1__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[0]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_current_word_1[2]_i_2__0.  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/current_word_1[2]_i_2__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_s_axi_wready_INST_0_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/s_axi_wready_INST_0_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[22].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[22]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[2]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[2]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[20].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[20]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[5]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[5]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_4.  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[2].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[2]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[4].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[4]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_3.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[4].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[4]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[4].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[4]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[4].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[4]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/m_axi_wdata[31]_INST_0_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[20].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[20]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[1].  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/current_word_1[1]_i_1__0
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[20].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[20]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[1]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[1]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[22].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[22]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[23]_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[0]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[0]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[3]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[3]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[4]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[4]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/axi_tft_0/U0/n_0_sig_s_ready_dup_i_1__1.  Re-placed instance mb_i/axi_tft_0/U0/sig_s_ready_dup_i_1__1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[28]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[28]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[49]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[49]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[31]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[26]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[26]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_8_out.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[5]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[29]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[29]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[1].  Re-placed instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/current_word_1[1]_i_1__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[21].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[21]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[2].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[2]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_4
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[59]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[59]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[0].  Re-placed instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/current_word_1[0]_i_1__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[60]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[60]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[56]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[56]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[34]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[34]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[6]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[6]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[13].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[13]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[4].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[4]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[12]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[12]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[39]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[32]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[32]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_3.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_26_out27_out.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[0]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[55]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[0]
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_1.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_1
+INFO: [Physopt 32-663] Processed net mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_4.  Re-placed instance mb_i/microblaze_0_axi_periph/s03_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_4
+INFO: [Physopt 32-663] Processed net mb_i/axi_tft_0/U0/n_0_sig_m_valid_dup_i_1.  Re-placed instance mb_i/axi_tft_0/U0/sig_m_valid_dup_i_1
+INFO: [Common 17-14] Message 'Physopt 32-663' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_12.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_12
+INFO: [Physopt 32-662] Processed net mb_i/delta_calc_0/inst/delta_calc_v1_0_M00_AXI_inst/axi_wvalid0_repN.  Did not re-place instance mb_i/delta_calc_0/axi_wdata[31]_i_2_replica
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[40]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[40]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg.  Did not re-place instance mb_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_reg
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[2]_INST_0_i_5.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[2]_INST_0_i_5
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[41]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[41]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_7.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[63]_i_7
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[42]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[42]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[5].  Did not re-place instance mb_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[5]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/p_0_in[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/current_word_1[0]_i_1__0
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_12_out.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[4]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[21].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[21]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[45]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[45]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[47]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[11].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[11]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[3].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[3]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[25].  Did not re-place instance mb_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[25]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[1]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[13].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[13]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[38]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[38]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[22].  Did not re-place instance mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[22]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[25]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[25]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_15_out.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[3]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[30]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[30]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[27]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[27]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[35]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[35]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_22_out23_out.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[1]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[36]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[36]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[52]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[52]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[58]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[58]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[19]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[19]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[48]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[48]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[54]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[54]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[57]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[57]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[61]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[61]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[15]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[12].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[12]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[21]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[21]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[11]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[11]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[37]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[37]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[62]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[62]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[33]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[33]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[18]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[18]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/p_1_out.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WSTRB_I[7]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[7]_i_2.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[7]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[11].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[11]
+INFO: [Physopt 32-662] Processed net mb_i/delta_calc_0/inst/delta_calc_v1_0_S00_AXI_inst/slv_reg_wren_repN.  Did not re-place instance mb_i/delta_calc_0/slv_reg0[0]_i_3_replica
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[2].gen_si_write.wdata_router_w/sel1_out[0].  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[2].gen_si_write.wdata_router_w/wrouter_aw_fifo/storage_data1_reg[0]
+INFO: [Physopt 32-662] Processed net mb_i/delta_calc_0/n_0_inst/delta_calc_v1_0_S00_AXI_inst/slv_reg1[9]_i_1.  Did not re-place instance mb_i/delta_calc_0/inst/delta_calc_v1_0_S00_AXI_inst/slv_reg1[9]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/delta_calc_0/n_0_slv_reg1[9]_i_2.  Did not re-place instance mb_i/delta_calc_0/slv_reg1[9]_i_2
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_m_axi_wvalid[5]_INST_0_i_5.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/m_axi_wvalid[5]_INST_0_i_5
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/xbar/n_0_s_axi_wready[3]_INST_0_i_3.  Did not re-place instance mb_i/microblaze_0_axi_periph/xbar/s_axi_wready[3]_INST_0_i_3
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[13]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[13]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[6].  Did not re-place instance mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[6]
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/n_0_WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[17]_i_1.  Did not re-place instance mb_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[17]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[13].  Did not re-place instance mb_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/goreg_dm.dout_i_reg[13]
+INFO: [Physopt 32-662] Processed net mb_i/delta_calc_0/n_0_inst/delta_calc_v1_0_S00_AXI_inst/slv_reg1[21]_i_1.  Did not re-place instance mb_i/delta_calc_0/inst/delta_calc_v1_0_S00_AXI_inst/slv_reg1[21]_i_1
+INFO: [Physopt 32-662] Processed net mb_i/delta_calc_0/n_0_slv_reg1[21]_i_2.  Did not re-place instance mb_i/delta_calc_0/slv_reg1[21]_i_2
+INFO: [Physopt 32-661] Optimized 123 nets.  Re-placed 123 instances.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.230 | TNS=0.000 |
+Phase 3 Placement Based Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:37 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 4 Rewire
+INFO: [Physopt 32-670] No setup violation found.  Rewire was not performed.
+Phase 4 Rewire | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:37 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 5 Critical Cell Optimization
+INFO: [Physopt 32-670] No setup violation found.  Critical Cell Optimization was not performed.
+Phase 5 Critical Cell Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:38 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 6 DSP Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+Phase 6 DSP Register Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 7 BRAM Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+Phase 7 BRAM Register Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 8 Shift Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+Phase 8 Shift Register Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 9 Retime Optimization
+INFO: [Physopt 32-670] No setup violation found.  Retime Optimization was not performed.
+Phase 9 Retime Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 10 Critical Pin Optimization
+INFO: [Physopt 32-670] No setup violation found.  Critical Pin Optimization was not performed.
+Phase 10 Critical Pin Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:39 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 11 Very High Fanout Optimization
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+Phase 11 Very High Fanout Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:39 . Memory (MB): peak = 1250.688 ; gain = 4.113
+
+Phase 12 BRAM Enable Optimization
+Phase 12 BRAM Enable Optimization | Checksum: 1dd7d488d
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:39 . Memory (MB): peak = 1250.688 ; gain = 4.113
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 1250.688 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=0.230 | TNS=0.000 |
+Ending Physical Synthesis Task | Checksum: 1860c55fd
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:39 . Memory (MB): peak = 1250.688 ; gain = 4.113
+INFO: [Common 17-83] Releasing license: Implementation
+337 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:02:17 ; elapsed = 00:01:52 . Memory (MB): peak = 1250.688 ; gain = 4.113
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1250.688 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1250.688 ; gain = 0.000
+Command: route_design -directive HigherDelayCost
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'HigherDelayCost'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 10ee025cf
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 1395.379 ; gain = 109.234
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 10ee025cf
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:30 . Memory (MB): peak = 1395.379 ; gain = 109.234
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: 14ad9e100
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:41 . Memory (MB): peak = 1456.078 ; gain = 169.934
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.335  | TNS=0      | WHS=-0.358 | THS=-536   |
+
+Phase 2 Router Initialization | Checksum: 14ad9e100
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:46 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1a7b55ec5
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:49 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 8040
+ Number of Nodes with overlaps = 1617
+ Number of Nodes with overlaps = 334
+ Number of Nodes with overlaps = 96
+ Number of Nodes with overlaps = 43
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 4
+INFO: [Route 35-325] The following overlapped nodes exist in the design and there is low overall congestion. 
+Resolution: Check for routing resource conflicts on the identified nets or significant localized congestion using the Route Congestion Metrics in the Device View. 
+1. INT_R_X19Y24/IMUX46
+Overlapping nets: 2
+	mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[11]
+	mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_2
+2. INT_R_X29Y34/IMUX30
+Overlapping nets: 2
+	mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word
+	mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1_reg[3]
+3. INT_R_X29Y33/IMUX8
+Overlapping nets: 2
+	mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[3]
+	mb_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[4]
+4. INT_R_X19Y23/NR1BEG3
+Overlapping nets: 2
+	mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/dout[11]
+	mb_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/n_0_m_axi_wdata[31]_INST_0_i_2
+
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 4f94e9fe
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:09 . Memory (MB): peak = 1456.078 ; gain = 169.934
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.316  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 110521a76
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:10 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 69
+ Number of Nodes with overlaps = 59
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1915c79fe
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:14 . Memory (MB): peak = 1456.078 ; gain = 169.934
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.324  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:14 . Memory (MB): peak = 1456.078 ; gain = 169.934
+Phase 4 Rip-up And Reroute | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:14 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:16 . Memory (MB): peak = 1456.078 ; gain = 169.934
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.42   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:16 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:16 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:18 . Memory (MB): peak = 1456.078 ; gain = 169.934
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.42   | TNS=0      | WHS=0.011  | THS=0      |
+
+Phase 7 Post Hold Fix | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:19 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 5.26183 %
+  Global Horizontal Routing Utilization  = 7.01108 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:19 . Memory (MB): peak = 1456.078 ; gain = 169.934
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 17a9c2f7e
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:19 . Memory (MB): peak = 1456.555 ; gain = 170.410
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 161c69d86
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:21 . Memory (MB): peak = 1456.574 ; gain = 170.430
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.42   | TNS=0      | WHS=0.011  | THS=0      |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 161c69d86
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:01:23 . Memory (MB): peak = 1456.574 ; gain = 170.430
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: 161c69d86
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:23 . Memory (MB): peak = 1456.574 ; gain = 170.430
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:23 . Memory (MB): peak = 1456.574 ; gain = 170.430
+INFO: [Common 17-83] Releasing license: Implementation
+353 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:06 ; elapsed = 00:01:26 . Memory (MB): peak = 1456.574 ; gain = 205.887
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1456.574 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1456.574 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1485.551 ; gain = 28.977
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1553.359 ; gain = 67.809
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-218] MMCM/PLL RST static_probability should be either 0 or 1, power analysis is using 0 by default.
+Use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets reset_IBUF]'  to set the static_probability to '1'  if desired.
+WARNING: [Power 33-218] MMCM/PLL RST static_probability should be either 0 or 1, power analysis is using 0 by default.
+Use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets mb_i/mig_7series_0/u_mb_mig_7series_0_0_mig/u_ddr2_infrastructure/sys_rst_act_hi]'  to set the static_probability to '1'  if desired.
+report_power: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1609.277 ; gain = 55.918
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 29 04:32:18 2015...

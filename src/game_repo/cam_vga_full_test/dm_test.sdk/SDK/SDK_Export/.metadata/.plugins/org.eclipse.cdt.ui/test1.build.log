@@ -1,0 +1,6 @@
+23:00:37 **** Auto Build of configuration Debug for project test1 ****
+make all 
+make: Nothing to be done for `all'.
+
+23:00:37 Build Finished (took 132ms)
+

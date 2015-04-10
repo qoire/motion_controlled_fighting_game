@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Wed Apr 01 23:58:01 2015
+# Process ID: 12428
+# Log file: C:/game_repo/ip_repo/myip_1.0/myip_v1_0_project/vivado.log
+# Journal file: C:/game_repo/ip_repo/myip_1.0/myip_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\game_repo\ip_repo\myip_1.0\myip_v1_0_project\myip_v1_0_project.xpr}
+update_ip_catalog -rebuild

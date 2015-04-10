@@ -1,0 +1,1177 @@
+04:36:37 INFO  : Processing command line option -hwspec C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+17:54:46 INFO  : Processing command line option -hwspec C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:39:06 INFO  : Processing command line option -hwspec C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:39:07 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:39:07 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+18:39:07 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+18:39:07 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+18:39:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:39:14 INFO  : 
+18:39:16 INFO  : Updating hardware inferred compiler options for test.
+18:39:16 INFO  : Clearing existing target manager status.
+18:39:22 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+18:39:23 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:48:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:49:04 INFO  : Processing command line option -hwspec C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+19:49:05 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+19:49:05 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+19:49:05 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+19:49:05 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+19:49:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:49:12 INFO  : 
+19:49:13 INFO  : Updating hardware inferred compiler options for test.
+19:49:13 INFO  : Clearing existing target manager status.
+19:49:14 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+19:49:14 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:56:41 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:57:23 INFO  : Processor reset is completed for microblaze_0
+20:31:09 INFO  : Project hw_platform_0's source hardware specification located at C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:31:16 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+20:31:21 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+20:31:21 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+20:31:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:31:27 INFO  : 
+20:31:27 INFO  : Updating hardware inferred compiler options for test.
+20:31:27 INFO  : Clearing existing target manager status.
+20:31:27 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+20:31:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:32:01 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:32:51 INFO  : Processor reset is completed for microblaze_0
+21:44:52 INFO  : Project hw_platform_0's source hardware specification located at C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:45:07 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+21:45:12 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+21:45:12 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+21:45:16 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:45:17 INFO  : 
+21:45:18 INFO  : Updating hardware inferred compiler options for test.
+21:45:18 INFO  : Clearing existing target manager status.
+21:45:18 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+21:45:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:45:57 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:46:24 INFO  : Processor reset is completed for microblaze_0
+23:06:58 INFO  : Project hw_platform_0's source hardware specification located at C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+23:07:04 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+23:07:08 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+23:07:08 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+23:07:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:07:13 INFO  : 
+23:07:14 INFO  : Updating hardware inferred compiler options for test.
+23:07:14 INFO  : Clearing existing target manager status.
+23:07:14 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+23:07:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:07:46 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+23:07:57 INFO  : Processor reset is completed for microblaze_0
+23:09:51 INFO  : Processor reset is completed for microblaze_0
+23:43:26 INFO  : Project hw_platform_0's source hardware specification located at C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+23:43:32 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+23:43:37 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+23:43:37 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+23:43:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:43:42 INFO  : 
+23:43:43 INFO  : Updating hardware inferred compiler options for test.
+23:43:43 INFO  : Clearing existing target manager status.
+23:43:43 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+23:43:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:44:04 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+23:44:17 INFO  : Processor reset is completed for microblaze_0
+23:45:56 INFO  : Processor reset is completed for microblaze_0
+00:58:13 INFO  : Project hw_platform_0's source hardware specification located at C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+00:58:17 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+00:58:22 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+00:58:22 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+00:58:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:58:27 INFO  : 
+00:58:27 INFO  : Updating hardware inferred compiler options for test.
+00:58:27 INFO  : Clearing existing target manager status.
+00:58:27 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+00:58:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:59:03 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:59:22 INFO  : Processor reset is completed for microblaze_0
+01:01:55 INFO  : Processor reset is completed for microblaze_0
+18:14:08 INFO  : Processing command line option -hwspec C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:18:23 INFO  : Processing command line option -hwspec C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:18:23 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:18:23 INFO  : Copied contents of C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+18:18:24 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+18:18:24 INFO  : Copied contents of C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+18:18:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:18:30 INFO  : 
+18:18:30 INFO  : Updating hardware inferred compiler options for test.
+18:18:30 INFO  : Clearing existing target manager status.
+18:18:32 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+18:18:32 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:19:23 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+18:19:37 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:19:50 INFO  : Processor reset is completed for microblaze_0
+18:19:50 ERROR : No such port: COM18
+18:22:49 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:23:39 INFO  : Processor reset is completed for microblaze_0
+18:23:39 ERROR : No such port: COM18
+18:31:27 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/dm_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:33:02 INFO  : Processor reset is completed for microblaze_0
+18:52:10 INFO  : Processor reset is completed for microblaze_0
+18:52:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:52:32 INFO  : Processor reset is completed for microblaze_0
+18:52:34 ERROR : Port COM6 is already in use.
+18:54:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:54:20 INFO  : Processor reset is completed for microblaze_0
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:15 INFO  : Processing command line option -hwspec C:/Xilinx_proj/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+20:14:15 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/Xilinx_proj/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+20:14:15 INFO  : Copied contents of C:/Xilinx_proj/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+20:14:16 INFO  : Copied contents of C:\Xilinx_proj\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+20:14:16 INFO  : Copied contents of C:\Xilinx_proj\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+20:14:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:14:25 INFO  : 
+20:14:26 INFO  : 
+20:14:27 INFO  : Updating hardware inferred compiler options for test_2.
+20:14:28 INFO  : Updating hardware inferred compiler options for test.
+20:14:28 INFO  : Clearing existing target manager status.
+20:14:29 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:14:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:15:55 INFO  : FPGA configured successfully with bitstream "C:/Xilinx_proj/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:16:59 INFO  : Processor reset is completed for microblaze_0
+20:19:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:19:33 INFO  : Processor reset is completed for microblaze_0
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:51 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:16:52 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+19:16:52 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+19:16:52 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+19:16:53 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+19:16:53 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+19:16:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:17:01 INFO  : 
+19:17:02 INFO  : 
+19:17:03 INFO  : Updating hardware inferred compiler options for test_2.
+19:17:03 INFO  : Updating hardware inferred compiler options for test.
+19:17:03 INFO  : Clearing existing target manager status.
+19:17:05 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:17:05 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:19:30 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+19:19:30 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:379)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:244)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+00:42:53 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:43:28 INFO  : Processor reset is completed for microblaze_0
+00:49:27 INFO  : Processor reset is completed for microblaze_0
+00:52:00 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+00:52:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:21:34 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+02:21:36 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+02:21:36 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+02:21:40 INFO  : Updating .bit and .bmm files from XPS's export folder.
+02:21:44 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+02:21:44 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+02:21:44 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+02:21:44 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+02:21:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:21:52 INFO  : 
+02:21:53 INFO  : 
+02:21:54 INFO  : Updating hardware inferred compiler options for test_2.
+02:21:54 INFO  : Updating hardware inferred compiler options for test.
+02:21:54 INFO  : Clearing existing target manager status.
+02:22:23 INFO  : Processor reset is completed for microblaze_0
+02:54:33 INFO  : Project hw_platform_0's source hardware specification located at C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+02:54:57 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+02:55:01 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+02:55:01 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+02:55:05 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:55:08 INFO  : 
+02:55:09 INFO  : 
+02:55:10 INFO  : Updating hardware inferred compiler options for test_2.
+02:55:11 INFO  : Updating hardware inferred compiler options for test.
+02:55:11 INFO  : Clearing existing target manager status.
+02:55:31 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+02:56:17 INFO  : Processor reset is completed for microblaze_0
+02:56:37 INFO  : Processor reset is completed for microblaze_0
+02:57:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:57:36 INFO  : Processor reset is completed for microblaze_0
+18:59:20 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:59:22 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:59:26 INFO  : Project hw_platform_0's source hardware specification located at C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:59:29 ERROR : Unable to save current hardware specification file in a temporary location.
+18:59:29 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+18:59:33 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+18:59:33 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+18:59:36 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+18:59:40 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+18:59:40 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+18:59:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:59:48 INFO  : 
+18:59:49 INFO  : 
+18:59:50 INFO  : Updating hardware inferred compiler options for test_2.
+18:59:51 INFO  : Updating hardware inferred compiler options for test.
+18:59:51 INFO  : Clearing existing target manager status.
+19:00:06 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:00:35 INFO  : Processor reset is completed for microblaze_0
+19:00:37 ERROR : No such port: COM1
+19:08:38 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+19:08:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:43:06 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+20:43:07 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+20:43:07 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+20:43:11 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+20:43:11 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+20:43:15 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:43:19 INFO  : 
+20:43:20 INFO  : 
+20:43:21 INFO  : Updating hardware inferred compiler options for test_2.
+20:43:22 INFO  : Updating hardware inferred compiler options for test.
+20:43:22 INFO  : Clearing existing target manager status.
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:43:39 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:44:19 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:44:27 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:44:27 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:44:27 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:44:27 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:45:44 INFO  : Processor reset is completed for microblaze_0
+20:45:46 ERROR : No such port: COM1
+20:46:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:46:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:46:39 INFO  : Processor reset is completed for microblaze_0
+20:47:39 INFO  : Processor reset is completed for microblaze_0
+20:47:58 WARN  : Terminating existing sessions on processor microblaze_0
+20:48:02 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:51:26 INFO  : Processor reset is completed for microblaze_0
+21:08:46 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:331)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+21:08:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:42:34 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+18:42:45 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:45 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:45 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:45 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:45 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:45 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:48 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+18:42:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:33 INFO  : Project hw_platform_0's source hardware specification located at C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:48:37 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+19:48:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:43 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+19:48:43 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:48:52 INFO  : 
+19:48:53 INFO  : Updating hardware inferred compiler options for test.
+19:48:53 INFO  : Clearing existing target manager status.
+19:48:55 INFO  : Closing and re-opening the MSS file of ther project test_bsp
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:48:55 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+19:58:52 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:01:32 INFO  : Successfully generated C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test\src\lscript.ld.
+20:01:32 INFO  : Applying linker script to all configurations of project test.
+20:01:32 INFO  : Setting rebuild state to true for all configurations of project test.
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:03:59 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Xilinx_proj\dm_test\dm_test.sdk\SDK\SDK_Export\test_bsp\system.mss
+
+20:06:20 INFO  : Project test_bsp was a BSP project. Please update references.
+20:06:20 ERROR : SDK has detected that project test_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references.
+20:48:52 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+20:49:13 INFO  : Project hw_platform_0's source hardware specification located at C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:49:18 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+20:49:23 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+20:49:23 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+20:49:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:49:35 INFO  : 
+20:49:36 INFO  : Updating hardware inferred compiler options for test1.
+20:49:36 INFO  : Clearing existing target manager status.
+20:49:36 INFO  : Closing and re-opening the MSS file of ther project test1_bsp
+20:49:36 INFO  : Closing and re-opening the MSS file of ther project test1_bsp
+20:49:36 INFO  : Closing and re-opening the MSS file of ther project test1_bsp
+20:49:36 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:49:46 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:50:03 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:51:11 INFO  : Processor reset is completed for microblaze_0
+21:08:12 INFO  : Processor reset is completed for microblaze_0
+21:09:34 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:11:46 INFO  : Processor reset is completed for microblaze_0
+21:13:57 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:14:18 INFO  : Processor reset is completed for microblaze_0
+21:15:44 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:16:04 INFO  : Processor reset is completed for microblaze_0
+21:18:40 INFO  : Processor reset is completed for microblaze_0
+21:22:36 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:23:13 INFO  : Processor reset is completed for microblaze_0
+23:36:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:48:42 INFO  : Processing command line option -hwspec D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+23:48:44 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+23:48:44 INFO  : Copied contents of D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+23:48:48 INFO  : Updating .bit and .bmm files from XPS's export folder.
+23:48:54 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+23:48:54 ERROR : Unexpected exception while copying file D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit: org.eclipse.core.internal.resources.ResourceException: Resource '/hw_platform_0/system.bit' already exists.
+23:48:59 INFO  : Updating .bit and .bmm files from XPS's export folder.
+23:49:02 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+23:49:07 INFO  : Updating .bit and .bmm files from XPS's export folder.
+23:49:10 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+23:49:15 INFO  : Updating .bit and .bmm files from XPS's export folder.
+23:49:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+23:49:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+23:49:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+23:49:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+23:49:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+23:49:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+23:51:57 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+23:51:57 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:379)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:244)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+23:52:39 INFO  : FPGA configured successfully with bitstream "D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/mb_wrapper.bit"
+23:53:03 INFO  : Processor reset is completed for microblaze_0
+23:53:05 ERROR : No such port: COM18
+01:41:35 INFO  : Project hw_platform_0's source hardware specification located at D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:41:42 INFO  : Copied contents of D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+01:41:47 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+01:41:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:41:56 INFO  : 
+01:41:57 INFO  : Updating hardware inferred compiler options for test1.
+01:41:57 INFO  : Clearing existing target manager status.
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:43:08 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+01:47:12 INFO  : FPGA configured successfully with bitstream "D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/mb_wrapper.bit"
+01:47:24 INFO  : Processor reset is completed for microblaze_0
+01:47:25 ERROR : No such port: COM18
+01:48:17 INFO  : Processor reset is completed for microblaze_0
+01:57:01 INFO  : Processor reset is completed for microblaze_0
+02:26:57 INFO  : Project hw_platform_0's source hardware specification located at D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+02:27:01 INFO  : Copied contents of D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+02:27:05 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+02:27:05 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+02:27:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:27:11 INFO  : 
+02:27:12 INFO  : Updating hardware inferred compiler options for test1.
+02:27:12 INFO  : Clearing existing target manager status.
+02:27:49 INFO  : Processor reset is completed for microblaze_0
+02:27:53 ERROR : Port COM5 is already in use.
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:40:12 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:45:29 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test1_bsp\system.mss
+
+02:46:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:46:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:46:08 INFO  : Processor reset is completed for microblaze_0
+02:46:10 ERROR : Port COM5 is already in use.
+02:46:10 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+Unknown Error Occured
+    : D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/test1/Debug/test1.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+02:46:33 INFO  : FPGA configured successfully with bitstream "D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+02:46:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:47:10 INFO  : Processing command line option -hwspec D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+02:47:32 INFO  : FPGA configured successfully with bitstream "D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+02:48:02 INFO  : Processor reset is completed for microblaze_0
+02:48:02 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+Unknown Error Occured
+    : D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/test1/Debug/test1.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+02:55:13 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:59:20 INFO  : Processing command line option -hwspec D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+02:59:21 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+02:59:21 INFO  : Copied contents of D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+02:59:25 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+02:59:26 INFO  : Updating .bit and .bmm files from XPS's export folder.
+02:59:30 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+02:59:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:59:32 INFO  : 
+02:59:35 INFO  : Updating .bit and .bmm files from XPS's export folder.
+02:59:36 INFO  : Updating hardware inferred compiler options for test1.
+02:59:40 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+02:59:40 INFO  : Clearing existing target manager status.
+02:59:45 INFO  : Updating .bit and .bmm files from XPS's export folder.
+03:00:04 INFO  : FPGA configured successfully with bitstream "D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/mb_wrapper.bit"
+03:00:37 INFO  : Processor reset is completed for microblaze_0
+03:04:15 INFO  : Processor reset is completed for microblaze_0
+03:06:51 INFO  : Processor reset is completed for microblaze_0
+03:08:07 INFO  : Processor reset is completed for microblaze_0
+03:08:08 ERROR : Port COM5 is already in use.
+03:09:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:09:07 INFO  : Processor reset is completed for microblaze_0
+03:09:25 INFO  : Processor reset is completed for microblaze_0
+03:47:56 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+03:47:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+04:45:59 INFO  : Processing command line option -hwspec D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+04:46:01 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+04:46:01 INFO  : Copied contents of D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+04:46:05 INFO  : Updating .bit and .bmm files from XPS's export folder.
+04:46:14 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+04:46:14 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+04:46:14 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+04:46:14 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+04:46:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:46:49 INFO  : 
+04:46:50 INFO  : Updating hardware inferred compiler options for test1.
+04:46:50 INFO  : Clearing existing target manager status.
+04:46:50 INFO  : Closing and re-opening the MSS file of ther project test1_bsp
+04:47:52 INFO  : Processor reset is completed for microblaze_0
+05:39:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+05:40:11 INFO  : Processing command line option -hwspec D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+05:40:12 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+05:40:12 INFO  : Copied contents of D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+05:40:13 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+05:40:13 INFO  : Copied contents of D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+05:40:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+05:40:20 INFO  : 
+05:40:21 INFO  : Updating hardware inferred compiler options for test1.
+05:40:21 INFO  : Clearing existing target manager status.
+05:40:52 INFO  : FPGA configured successfully with bitstream "D:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+05:41:28 INFO  : Processor reset is completed for microblaze_0
+05:42:30 INFO  : Processor reset is completed for microblaze_0
+06:18:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:12:16 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+21:12:18 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+21:12:18 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+21:12:21 INFO  : Updating .bit and .bmm files from XPS's export folder.
+21:12:24 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+21:12:24 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+21:12:24 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+21:12:24 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+21:12:26 WARN  :  [Hsm 55-1607] Software Repository Paths d:/game_repo/ip_repo/delta_calc_1.0 and C:/Users/jun/AppData/Local/Temp/../../../../../ip_repo/delta_calc_1.0 do not exist or not accessible
+
+21:12:26 WARN  :  [Hsm 55-1607] Software Repository Paths d:/game_repo/ip_repo/delta_calc_1.0 and C:/Users/jun/AppData/Local/Temp/../../../../../ip_repo/delta_calc_1.0 do not exist or not accessible
+
+21:12:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:12:31 INFO  : 
+21:12:32 INFO  : Updating hardware inferred compiler options for test1.
+21:12:32 INFO  : Clearing existing target manager status.
+21:20:59 ERROR : Unexpected error while reading linker script.
+org.eclipse.core.internal.resources.ResourceException: Resource '/test1/src/lscript.ld' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.initLscriptEditorPage(LscriptEditor.java:140)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.setInput(LscriptEditor.java:132)
+	at org.eclipse.ui.forms.editor.FormEditor.init(FormEditor.java:128)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.init(LscriptEditor.java:58)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:315)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1245)
+	at org.eclipse.ui.internal.PartStack.handleDeferredEvents(PartStack.java:1213)
+	at org.eclipse.ui.internal.LayoutPart.deferUpdates(LayoutPart.java:400)
+	at org.eclipse.ui.internal.PartSashContainer.handleDeferredEvents(PartSashContainer.java:1409)
+	at org.eclipse.ui.internal.LayoutPart.deferUpdates(LayoutPart.java:400)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1508)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1498)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1472)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1536)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$23.run(AbstractTextEditor.java:4322)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:331)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:637)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:203)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:455)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:187)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:202)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:122)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:40)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommandInContext(HandlerService.java:270)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:95)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:47)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:474)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:76)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1823)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:4892)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:6109)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4560)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5977)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+22:08:57 INFO  : Project hw_platform_0's source hardware specification located at C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+22:09:04 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+22:09:09 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+22:09:09 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+22:09:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:09:15 INFO  : 
+22:09:16 INFO  : Updating hardware inferred compiler options for test1.
+22:09:16 INFO  : Clearing existing target manager status.
+22:09:35 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+22:16:06 INFO  : Processor reset is completed for microblaze_0
+22:25:22 INFO  : Processor reset is completed for microblaze_0
+22:38:07 INFO  : Processor reset is completed for microblaze_0
+22:39:56 INFO  : Processor reset is completed for microblaze_0
+22:41:17 WARN  : Terminating existing sessions on processor microblaze_0
+22:41:21 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+22:41:42 INFO  : Processor reset is completed for microblaze_0
+22:48:18 INFO  : Processor reset is completed for microblaze_0
+22:52:35 INFO  : Processor reset is completed for microblaze_0
+22:54:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:54:20 INFO  : Processor reset is completed for microblaze_0
+22:56:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:56:54 INFO  : Processor reset is completed for microblaze_0
+22:56:54 ERROR : Port COM18 is already in use.
+23:02:26 INFO  : Processor reset is completed for microblaze_0
+23:05:37 INFO  : Processor reset is completed for microblaze_0
+23:06:50 INFO  : Processor reset is completed for microblaze_0
+23:08:04 INFO  : Processor reset is completed for microblaze_0
+23:09:29 INFO  : Processor reset is completed for microblaze_0
+23:10:25 INFO  : Processor reset is completed for microblaze_0
+23:14:22 INFO  : Processor reset is completed for microblaze_0
+23:15:38 INFO  : Processor reset is completed for microblaze_0
+23:25:50 INFO  : Processor reset is completed for microblaze_0
+23:27:02 INFO  : Processor reset is completed for microblaze_0
+23:36:04 INFO  : Processor reset is completed for microblaze_0
+23:41:19 INFO  : Processor reset is completed for microblaze_0
+23:47:03 INFO  : Processor reset is completed for microblaze_0
+23:50:17 INFO  : Processor reset is completed for microblaze_0
+23:50:48 INFO  : Processor reset is completed for microblaze_0
+23:52:43 INFO  : Processor reset is completed for microblaze_0
+23:54:21 INFO  : Processor reset is completed for microblaze_0
+23:59:20 INFO  : Processor reset is completed for microblaze_0
+00:06:54 INFO  : Processor reset is completed for microblaze_0
+00:09:11 INFO  : Processor reset is completed for microblaze_0
+00:40:20 INFO  : Processor reset is completed for microblaze_0
+00:48:17 INFO  : Processor reset is completed for microblaze_0
+01:00:52 INFO  : Processor reset is completed for microblaze_0
+01:01:14 INFO  : Processor reset is completed for microblaze_0
+01:07:07 INFO  : Processor reset is completed for microblaze_0
+01:09:41 INFO  : Processor reset is completed for microblaze_0
+01:10:54 INFO  : Processor reset is completed for microblaze_0
+01:11:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:28:45 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+01:28:47 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+01:28:47 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+01:28:50 INFO  : Updating .bit and .bmm files from XPS's export folder.
+01:28:59 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+01:28:59 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+01:28:59 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\mb_wrapper.bit.
+01:28:59 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper_bd.bmm into \hw_platform_0\mb_wrapper_bd.bmm.
+01:29:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:29:09 INFO  : 
+01:29:10 INFO  : Updating hardware inferred compiler options for test1.
+01:29:10 INFO  : Clearing existing target manager status.
+01:29:27 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+01:30:46 INFO  : Processor reset is completed for microblaze_0
+01:31:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:31:59 INFO  : Processor reset is completed for microblaze_0
+01:33:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:33:09 INFO  : Processor reset is completed for microblaze_0
+01:33:11 ERROR : Port COM8 is already in use.
+01:34:12 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:331)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+01:34:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:11:11 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+15:11:13 INFO  : The hardware specification for project 'hw_platform_0' is different from C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+15:11:13 INFO  : Copied contents of C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml into \hw_platform_0\system.xml.
+15:11:17 INFO  : Updating .bit and .bmm files from XPS's export folder.
+15:11:20 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+15:11:20 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+15:11:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:11:26 INFO  : Updating .bit and .bmm files from XPS's export folder.
+15:11:27 INFO  : 
+15:11:30 INFO  : Copied contents of C:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\hw\mb_wrapper.bit into \hw_platform_0\system.bit.
+15:11:31 INFO  : Updating hardware inferred compiler options for test1.
+15:11:31 INFO  : Clearing existing target manager status.
+15:11:35 INFO  : Updating .bit and .bmm files from XPS's export folder.
+15:11:52 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:12:28 INFO  : FPGA configured successfully with bitstream "C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw_platform_0/mb_wrapper.bit"
+15:13:23 INFO  : Processor reset is completed for microblaze_0
+15:14:55 INFO  : Processor reset is completed for microblaze_0
+15:14:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:15:01 INFO  : Processor reset is completed for microblaze_0
+15:15:01 ERROR : Port COM8 is already in use.
+15:21:30 INFO  : Processor reset is completed for microblaze_0
+15:26:16 INFO  : Processor reset is completed for microblaze_0
+15:29:46 INFO  : Processor reset is completed for microblaze_0
+15:41:58 INFO  : Processor reset is completed for microblaze_0
+15:42:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:42:29 INFO  : Processor reset is completed for microblaze_0
+15:50:07 INFO  : Processor reset is completed for microblaze_0
+15:56:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:58:48 INFO  : Processing command line option -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml.
+22:58:53 INFO  : Updating .bit and .bmm files from XPS's export folder.

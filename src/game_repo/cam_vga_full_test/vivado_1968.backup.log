@@ -1,0 +1,487 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sun Apr 05 20:37:53 2015
+# Process ID: 7804
+# Log file: C:/game_repo/cam_vga_full_test/vivado.log
+# Journal file: C:/game_repo/cam_vga_full_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\game_repo\cam_vga_full_test\dm_test.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_1/board.prj'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/game_repo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+WARNING: [IP_Flow 19-3549] Detected incompatibility between IP mb_delta_calc_0_0 and its definition xilinx.com:user:delta_calc:1.0
+WARNING: [BD 41-1303] One or more IPs have been locked in the design 'mb.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:23 . Memory (MB): peak = 1119.875 ; gain = 280.754
+open_bd_design {C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd}
+Adding component instance block -- xilinx.com:ip:microblaze:9.3 - microblaze_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.0 - microblaze_0_xlconcat
+Adding component instance block -- xilinx.com:ip:mdm:3.1 - mdm_1
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:mig_7series:2.0 - mig_7series_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_81M
+Adding component instance block -- xilinx.com:ip:util_vector_logic:1.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:user:ov7670_top:1.0 - ov7670_top_0
+Adding component instance block -- xilinx.com:user:delta_calc:1.0 - delta_calc_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - lmb_bram
+Successfully read diagram <mb> from BD file <C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd>
+open_bd_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1300.988 ; gain = 181.113
+ipx::edit_ip_in_project -upgrade true -name {delta_calc_v1_0_project} -directory {C:/game_repo/ip_repo/delta_calc_1.0/delta_calc_v1_0_project} {c:/game_repo/ip_repo/delta_calc_1.0/component.xml}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/game_repo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+update_compile_order -fileset sim_1
+ipx::update_ip_instances -delete_project true
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/game_repo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/game_repo/ip_repo/delta_calc_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+update_ip_catalog: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1331.219 ; gain = 0.000
+INFO: [IP_Flow 19-3422] Upgraded mb_delta_calc_0_0 (delta_calc_v1.0 1.0) from revision 19 to revision 129
+CRITICAL WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading IP 'mb_delta_calc_0_0'. These changes may impact your design.
+INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_delta_calc_0_0/mb_delta_calc_0_0.upgrade_log'.
+Wrote  : <C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd> 
+ipx::update_ip_instances: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1397.098 ; gain = 65.879
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-721] Attempt to set value '100.000' on disabled parameter 'PRIM_IN_FREQ' of cell '/clk_wiz_1' is ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite parameter (C_M_AXI_S2MM_DATA_WIDTH) on /axi_vdma_0 that is set by user. Command ignored
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_vdma:6.2-17] /axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /microblaze_0_axi_periph/xbar/S00_AXI(1) and /microblaze_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /microblaze_0_axi_periph/xbar/S00_AXI(2) and /microblaze_0_axi_periph/s00_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /microblaze_0_axi_periph/xbar/S00_AXI(2) and /microblaze_0_axi_periph/s00_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /microblaze_0_axi_periph/xbar/S00_AXI(256) and /microblaze_0_axi_periph/s00_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /microblaze_0_axi_periph/xbar/S01_AXI(READ_WRITE) and /microblaze_0_axi_periph/s01_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /microblaze_0_axi_periph/xbar/S01_AXI(1) and /microblaze_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /microblaze_0_axi_periph/xbar/S01_AXI(256) and /microblaze_0_axi_periph/s01_couplers/auto_us/M_AXI(4)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /microblaze_0_axi_periph/xbar/S02_AXI(256) and /microblaze_0_axi_periph/s02_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /microblaze_0_axi_periph/xbar/S03_AXI(1) and /microblaze_0_axi_periph/s03_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /microblaze_0_axi_periph/xbar/S03_AXI(256) and /microblaze_0_axi_periph/s03_couplers/auto_us/M_AXI(1)
+Verilog Output written to : mb.v
+Verilog Output written to : mb_wrapper.v
+Wrote  : <C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_microblaze_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_dlmb_v10_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_ilmb_v10_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_dlmb_bram_if_cntlr_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_ilmb_bram_if_cntlr_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_lmb_bram_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_microblaze_0_axi_intc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_microblaze_0_xlconcat_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_mdm_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_clk_wiz_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_rst_clk_wiz_1_100M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_axi_uartlite_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_axi_vdma_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_ov7670_top_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ov7670_top_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_rst_mig_7series_0_81M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_81M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_util_vector_logic_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_axi_tft_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_tft_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_xlslice_0_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_xlslice_0_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'mb_xlslice_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_delta_calc_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block delta_calc_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_ds_0'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_0'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_ds_1'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_1'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_cc_0'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m02_couplers/auto_cc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_ds_2'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_2'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_ds_3'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_3'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_ds_4'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_4'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_5'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_us_0'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s00_couplers/auto_us .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_us_1'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s01_couplers/auto_us .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_us_2'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s02_couplers/auto_us .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_pc_6'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s03_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mb_auto_us_3'...
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:12.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.2' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s03_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ov7670_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_81M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_tft_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block delta_calc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m02_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s00_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s01_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s02_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s03_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/s03_couplers/auto_us .
+[Sun Apr 05 20:42:11 2015] Launched synth_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/synth_1/runme.log
+[Sun Apr 05 20:42:11 2015] Launched impl_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 1486.484 ; gain = 89.387
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 480 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mdm_1_0/mb_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2310.359 ; gain = 448.344
+INFO: [Timing 38-2] Deriving generated clocks [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0.xdc:56]
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+Finished Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_early.xdc]
+Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper.xdc]
+Finished Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper.xdc]
+Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_late.xdc]
+Finished Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_late.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2360.535 ; gain = 31.289
+Restoring placement.
+Restored 6970 out of 6970 XDEF sites from archive | CPU: 9.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Generating merged BMM file for the design top 'mb_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 400 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 94 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 254 instances
+
+open_run: Time (s): cpu = 00:01:08 ; elapsed = 00:00:53 . Memory (MB): peak = 2584.535 ; gain = 1046.777
+open_bd_design {C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd}
+export_hardware [get_files C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd] [get_runs impl_1] -bitstream
+Exporting to file C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [BD 41-436] exporting bit file 'C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper.bit'...
+INFO: [BD 41-438] exporting bmm file 'C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper_bd.bmm'...
+launch_sdk -bit C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper.bit -bmm C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper_bd.bmm -workspace C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -bit C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper.bit -bmm C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper_bd.bmm -workspace C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Sun Apr 05 21:29:45 2015] Launched impl_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/hdl/mb_wrapper.v" into library work [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/hdl/mb_wrapper.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/hdl/mb.v" into library work [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/hdl/mb.v:1]
+[Sun Apr 05 21:32:01 2015] Launched synth_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/synth_1/runme.log
+launch_runs impl_1
+[Sun Apr 05 21:54:48 2015] Launched impl_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 480 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mdm_1_0/mb_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2687.355 ; gain = 0.000
+INFO: [Timing 38-2] Deriving generated clocks [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0.xdc:56]
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+Finished Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_early.xdc]
+Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper.xdc]
+Finished Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper.xdc]
+Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_late.xdc]
+Finished Parsing XDC File [c:/game_repo/cam_vga_full_test/.Xil/Vivado-7804-lychee/dcp/mb_wrapper_late.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2687.355 ; gain = 0.000
+Restoring placement.
+Restored 6864 out of 6864 XDEF sites from archive | CPU: 9.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Generating merged BMM file for the design top 'mb_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 
+refresh_design: Time (s): cpu = 00:01:01 ; elapsed = 00:00:52 . Memory (MB): peak = 2687.355 ; gain = 28.992
+launch_runs impl_1 -to_step write_bitstream
+[Sun Apr 05 22:06:40 2015] Launched impl_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/runme.log
+open_bd_design {C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd}
+export_hardware [get_files C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd] [get_runs impl_1] -bitstream
+Exporting to file C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [BD 41-436] exporting bit file 'C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper.bit'...
+INFO: [BD 41-438] exporting bmm file 'C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper_bd.bmm'...
+ipx::edit_ip_in_project -upgrade true -name {ov7670_top_v1_0_project} -directory {C:/game_repo/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top_v1_0_project} {c:/game_repo/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/component.xml}
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/game_repo/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop/ov7670_top_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/game_repo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/game_repo/ip_repo/delta_calc_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+update_compile_order -fileset sim_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 06 01:12:00 2015...

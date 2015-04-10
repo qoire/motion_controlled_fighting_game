@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sun Mar 29 04:23:53 2015
+# Process ID: 3784
+# Log file: D:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper.vdi
+# Journal file: D:/game_repo/cam_vga_full_test/dm_test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mb_wrapper.tcl -notrace

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sat Feb 21 01:26:57 2015
+# Process ID: 3928
+# Log file: d:/Xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.runs/synth_1/ov7670_cam_v1_0.vds
+# Journal file: d:/Xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ov7670_cam_v1_0.tcl

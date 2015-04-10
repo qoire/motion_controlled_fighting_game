@@ -1,0 +1,13 @@
+02:52:06 **** Auto Build of configuration Debug for project test2 ****
+make all 
+'Building target: test2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "test2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../test2_bsp/microblaze_0/lib\libxil.a(delta_calc_selftest.o): In function `DELTA_CALC_Reg_SelfTest':
+D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test2_bsp\microblaze_0\libsrc\delta_calc_v1_0\src/delta_calc_selftest.c:50: undefined reference to `Xil_Out32'
+D:\game_repo\cam_vga_full_test\dm_test.sdk\SDK\SDK_Export\test2_bsp\microblaze_0\libsrc\delta_calc_v1_0\src/delta_calc_selftest.c:52: undefined reference to `Xil_In32'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test2.elf] Error 1
+
+02:52:06 Build Finished (took 176ms)
+

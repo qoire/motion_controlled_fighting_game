@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Wed Apr 01 23:51:11 2015
+# Process ID: 10268
+# Log file: C:/game_repo/ip_repo/myip_1.0/myip_v1_0_project/vivado.log
+# Journal file: C:/game_repo/ip_repo/myip_1.0/myip_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\game_repo\ip_repo\myip_1.0\myip_v1_0_project\myip_v1_0_project.xpr}
+INFO: [Project 1-313] Project file moved from 'd:/game_repo/ip_repo/myip_1.0/myip_v1_0_project' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop', nor could it be found using path 'd:/xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop', nor could it be found using path 'd:/xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop', nor could it be found using path 'd:/xilinx_proj/ip_repo/ovtop/ovtop.srcs/sources_1/imports/ovtop'.
+Scanning sources...
+Finished scanning sources
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 01 23:53:27 2015...

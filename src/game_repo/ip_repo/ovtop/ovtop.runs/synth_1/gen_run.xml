@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1424935529">
+  <File Type="RDS-UTIL-PB" Name="ov7670_top_utilization_synth.pb"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL" Name="ov7670_top_utilization_synth.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ov7670_top_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="ov7670_top.tcl"/>
+  <File Type="RDS-RDS" Name="ov7670_top.vds"/>
+  <File Type="RDS-DCP" Name="ov7670_top.dcp"/>
+  <File Type="VDS-TIMING-PB" Name="ov7670_top_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="$PSDKDIR/SDK/SDK_Export/hw/ov7670_top.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/I2C_OV7670_RGB444_Config.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/I2C_OV7670_RGB444_Config.v"/>
+        <Attr Name="ImportTime" Val="1423025381"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/I2C_Controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/I2C_Controller.v"/>
+        <Attr Name="ImportTime" Val="1360251732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/ov7670_capture.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/ov7670_capture.v"/>
+        <Attr Name="ImportTime" Val="1424921951"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/I2C_AV_Config.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/I2C_AV_Config.v"/>
+        <Attr Name="ImportTime" Val="1422734140"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/debounce.v"/>
+        <Attr Name="ImportTime" Val="1400870618"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/ov7670_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/ov7670_top.v"/>
+        <Attr Name="ImportTime" Val="1424919196"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ovtop/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ov7670_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

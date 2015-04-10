@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="mb_wrapper_bd.bmm" key="hw_platform_0-bmmFile"/>
+	<item value="mb_wrapper.bit" key="hw_platform_0-bitFile"/>
+	<item value="false" key="hw_platform_0-runResetZynq"/>
+	<item value="bootloop" key="hw_platform_0-mb_i/microblaze_0-initElf"/>
+	<item value="bootloop" key="hw_platform_0-microblaze_0-initElf"/>
+	<item value="Local" key="hw_platform_0-target"/>
+</section>

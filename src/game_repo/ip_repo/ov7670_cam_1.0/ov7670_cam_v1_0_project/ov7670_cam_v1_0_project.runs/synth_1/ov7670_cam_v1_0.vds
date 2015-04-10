@@ -1,0 +1,609 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sat Feb 21 01:26:57 2015
+# Process ID: 3928
+# Log file: d:/Xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.runs/synth_1/ov7670_cam_v1_0.vds
+# Journal file: d:/Xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ov7670_cam_v1_0.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# set_msg_config -id {HDL-1065} -limit 10000
+# create_project -in_memory -part xc7a100tcsg324-1
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# set_property ip_repo_paths {
+#   d:/Xilinx_proj/ip_repo/ov7670_cam_1.0
+#   d:/Xilinx_proj/ip_repo/myip_1.0
+#   d:/Xilinx_proj/ip_repo/ov7670_1.0
+#   d:/xilinx_proj/ip_repo/ov7670_1.0
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   D:/Xilinx_proj/ip_repo/ov7670_cam_1.0
+#   D:/Xilinx_proj/ip_repo/myip_1.0
+#   D:/Xilinx_proj/ip_repo/ov7670_1.0
+#   D:/xilinx_proj/ip_repo/ov7670_1.0
+#   D:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   D:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   D:/xilinx_proj/ip_repo/ov7670_cam_1.0
+#   D:/xilinx_proj/ip_repo/ov7670_cam_1.0
+# } [current_fileset]
+# read_verilog -library xil_defaultlib {
+#   D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/I2C_OV7670_RGB444_Config.v
+#   D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/I2C_Controller.v
+#   D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/ov7670_capture.v
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/I2C_AV_Config.v
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/debounce.v
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_S01_AXI.v
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v
+#   d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0.v
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.cache/wt [current_project]
+# set_property parent.project_dir d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project [current_project]
+# synth_design -top ov7670_cam_v1_0 -part xc7a100tcsg324-1
+Command: synth_design -top ov7670_cam_v1_0 -part xc7a100tcsg324-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+WARNING: [Synth 8-2507] parameter declaration becomes local in ov7670_cam_v1_0_M00_AXI with formal parameter declaration list [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v:123]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 237.820 ; gain = 108.313
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ov7670_cam_v1_0' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0.v:4]
+	Parameter C_M00_AXI_START_DATA_VALUE bound to: -1442840576 - type: integer 
+	Parameter C_M00_AXI_TARGET_SLAVE_BASE_ADDR bound to: 1073741824 - type: integer 
+	Parameter C_M00_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_TRANSACTIONS_NUM bound to: 4 - type: integer 
+	Parameter C_S01_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S01_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ov7670_cam_v1_0_M00_AXI' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v:4]
+	Parameter C_M_START_DATA_VALUE bound to: -1442840576 - type: integer 
+	Parameter C_M_TARGET_SLAVE_BASE_ADDR bound to: 1073741824 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_TRANSACTIONS_NUM bound to: 4 - type: integer 
+	Parameter TRANS_NUM_BITS bound to: 2 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter INIT_WRITE bound to: 2'b01 
+	Parameter INIT_READ bound to: 2'b10 
+	Parameter INIT_COMPARE bound to: 2'b11 
+WARNING: [Synth 8-3848] Net axi_araddr in module/entity ov7670_cam_v1_0_M00_AXI does not have driver. [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v:144]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_cam_v1_0_M00_AXI' (1#1) [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'ov7670_cam_v1_0_S01_AXI' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_S01_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_S01_AXI.v:224]
+INFO: [Synth 8-226] default block is never used [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_S01_AXI.v:371]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_cam_v1_0_S01_AXI' (2#1) [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_S01_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'debounce' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/debounce.v:22]
+INFO: [Synth 8-256] done synthesizing module 'debounce' (3#1) [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/debounce.v:22]
+INFO: [Synth 8-638] synthesizing module 'ov7670_capture' [D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/ov7670_capture.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_capture' (4#1) [D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/ov7670_capture.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'addr' does not match port width (17) of module 'ov7670_capture' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0.v:202]
+INFO: [Synth 8-638] synthesizing module 'I2C_AV_Config' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/I2C_AV_Config.v:35]
+	Parameter LUT_SIZE bound to: 193 - type: integer 
+	Parameter CLK_Freq bound to: 25000000 - type: integer 
+	Parameter I2C_Freq bound to: 10000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'I2C_OV7670_RGB444_Config' [D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/I2C_OV7670_RGB444_Config.v:17]
+	Parameter Read_DATA bound to: 0 - type: integer 
+	Parameter SET_OV7670 bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'I2C_OV7670_RGB444_Config' (5#1) [D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/I2C_OV7670_RGB444_Config.v:17]
+INFO: [Synth 8-638] synthesizing module 'I2C_Controller' [D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/I2C_Controller.v:16]
+INFO: [Synth 8-256] done synthesizing module 'I2C_Controller' (6#1) [D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/src/I2C_Controller.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/I2C_AV_Config.v:122]
+INFO: [Synth 8-256] done synthesizing module 'I2C_AV_Config' (7#1) [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/ov7670_cam_v1_0_project.srcs/sources_1/new/I2C_AV_Config.v:35]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_cam_v1_0' (8#1) [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0.v:4]
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port pwdn driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port reset driven by constant 1
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.910 ; gain = 132.402
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.910 ; gain = 132.402
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.910 ; gain = 132.402
+---------------------------------------------------------------------------------
+
+INFO: [Synth 8-4471] merging register 'ERROR_reg' into 'compare_done_reg' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v:492]
+INFO: [Synth 8-4471] merging register 'slv_reg3_reg[31:0]' into 'slv_reg2_reg[31:0]' [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_S01_AXI.v:219]
+WARNING: [Synth 8-3848] Net axi_araddr in module/entity ov7670_cam_v1_0_M00_AXI does not have driver. [d:/xilinx_proj/ip_repo/ov7670_cam_1.0/hdl/ov7670_cam_v1_0_M00_AXI.v:144]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 34    
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     19 Bit        Muxes := 1     
+	  59 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 4     
+	  41 Input      1 Bit        Muxes := 15    
+	  59 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 59    
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ov7670_cam_v1_0 
+Detailed RTL Component Info : 
+Module ov7670_cam_v1_0_M00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 4     
+Module ov7670_cam_v1_0_S01_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
+Module debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ov7670_capture 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     19 Bit        Muxes := 1     
+Module I2C_OV7670_RGB444_Config 
+Detailed RTL Component Info : 
+Module I2C_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	  59 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 41    
+	  41 Input      1 Bit        Muxes := 15    
+	  59 Input      1 Bit        Muxes := 14    
+Module I2C_AV_Config 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 5     
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Loading clock regions from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from D:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from D:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[7] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[6] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[5] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[4] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[3] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[2] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/u_I2C_Controller/I2C_RDATA_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\IIC/Config_Done_reg ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port pwdn driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port reset driven by constant 1
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_awprot[2] driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_awprot[1] driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_awprot[0] driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_wstrb[3] driven by constant 1
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_wstrb[2] driven by constant 1
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_wstrb[1] driven by constant 1
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_wstrb[0] driven by constant 1
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_arprot[2] driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_arprot[1] driven by constant 0
+WARNING: [Synth 8-3917] design ov7670_cam_v1_0 has port m00_axi_arprot[0] driven by constant 1
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_bresp[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_bresp[0]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[31]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[30]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[29]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[28]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[27]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[26]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[25]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[24]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[23]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[22]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[21]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[20]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[19]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[18]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[17]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[16]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[15]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[14]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[13]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[12]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[11]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[10]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[9]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[8]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[7]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[6]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[5]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[4]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[3]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[2]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rdata[0]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rresp[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port m00_axi_rresp[0]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_awaddr[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_awaddr[0]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_awprot[2]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_awprot[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_awprot[0]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_araddr[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_araddr[0]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_arprot[2]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_arprot[1]
+WARNING: [Synth 8-3331] design ov7670_cam_v1_0 has unconnected port s01_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 560.438 ; gain = 430.930
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_35/\capture/address_next_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_35/\capture/address_next_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ov7670_cam_v1_0_M00_AXI_inst/start_single_read_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ov7670_cam_v1_0_M00_AXI_inst/compare_done_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_arvalid_reg )
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/compare_done_reg ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/start_single_read_reg ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_arvalid_reg ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/address_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/address_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/address_next_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/address_next_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[31] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[30] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[29] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[28] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[27] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[26] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[25] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[24] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[23] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[22] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[21] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[20] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[19] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[18] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[17] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[16] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[15] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[14] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[13] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[12] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[11] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[10] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[9] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[8] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[7] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[6] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[5] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[4] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[3] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[2] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[1] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_S01_AXI_inst/slv_reg2_reg[0] ) is unused and will be removed from module ov7670_cam_v1_0.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\capture/dout_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[31] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[30] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[29] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[28] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[27] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[26] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[25] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[24] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[23] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[22] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[21] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[20] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[19] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[18] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[17] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ov7670_cam_v1_0_M00_AXI_inst/axi_wdata_reg[16] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[31] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[30] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[29] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[28] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[27] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[26] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[25] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[24] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[23] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[22] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[21] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[20] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[19] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[18] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[17] ) is unused and will be removed from module ov7670_cam_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\capture/dout_reg[16] ) is unused and will be removed from module ov7670_cam_v1_0.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     5|
+|2     |CARRY4 |    18|
+|3     |INV    |     1|
+|4     |LUT1   |    59|
+|5     |LUT2   |    16|
+|6     |LUT3   |    13|
+|7     |LUT4   |    74|
+|8     |LUT5   |    21|
+|9     |LUT6   |   124|
+|10    |MUXF7  |     7|
+|11    |FDCE   |    46|
+|12    |FDPE   |     8|
+|13    |FDRE   |   265|
+|14    |IBUF   |    67|
+|15    |IOBUF  |     1|
+|16    |OBUF   |   158|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------------+-------------------------+------+
+|      |Instance                       |Module                   |Cells |
++------+-------------------------------+-------------------------+------+
+|1     |top                            |                         |   883|
+|2     |  IIC                          |I2C_AV_Config            |   236|
+|3     |    u_I2C_Controller           |I2C_Controller           |   148|
+|4     |    u_I2C_OV7725_RGB444_Config |I2C_OV7670_RGB444_Config |     7|
+|5     |  btn_debounce                 |debounce                 |    61|
+|6     |  capture                      |ov7670_capture           |   145|
+|7     |  ov7670_cam_v1_0_M00_AXI_inst |ov7670_cam_v1_0_M00_AXI  |    52|
+|8     |  ov7670_cam_v1_0_S01_AXI_inst |ov7670_cam_v1_0_S01_AXI  |   157|
++------+-------------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 571.910 ; gain = 442.402
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 158 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 571.910 ; gain = 442.402
+INFO: [Netlist 29-17] Analyzing 68 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  INV => LUT1: 1 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 158 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 571.910 ; gain = 397.133
+# write_checkpoint ov7670_cam_v1_0.dcp
+# report_utilization -file ov7670_cam_v1_0_utilization_synth.rpt -pb ov7670_cam_v1_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 571.910 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 21 01:27:24 2015...

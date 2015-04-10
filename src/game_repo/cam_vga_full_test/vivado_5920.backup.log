@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Apr 06 01:21:40 2015
+# Process ID: 1968
+# Log file: C:/game_repo/cam_vga_full_test/vivado.log
+# Journal file: C:/game_repo/cam_vga_full_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\game_repo\cam_vga_full_test\dm_test.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_1/board.prj'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/game_repo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'c:/game_repo/ip_repo/delta_calc_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/game_repo/ip_repo/delta_calc_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:21 . Memory (MB): peak = 1055.852 ; gain = 323.863
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 480 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+Parsing XDC File [C:/game_repo/cam_vga_full_test/.Xil/Vivado-1968-yao-PC/dcp/mb_wrapper_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mdm_1_0/mb_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1824.910 ; gain = 453.852
+INFO: [Timing 38-2] Deriving generated clocks [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_clk_wiz_1_0/mb_clk_wiz_1_0.xdc:56]
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'mb_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/ip/mb_mig_7series_0_0/mb_mig_7series_0_0/user_design/constraints/mb_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+Finished Parsing XDC File [C:/game_repo/cam_vga_full_test/.Xil/Vivado-1968-yao-PC/dcp/mb_wrapper_early.xdc]
+Parsing XDC File [C:/game_repo/cam_vga_full_test/.Xil/Vivado-1968-yao-PC/dcp/mb_wrapper.xdc]
+Finished Parsing XDC File [C:/game_repo/cam_vga_full_test/.Xil/Vivado-1968-yao-PC/dcp/mb_wrapper.xdc]
+Parsing XDC File [C:/game_repo/cam_vga_full_test/.Xil/Vivado-1968-yao-PC/dcp/mb_wrapper_late.xdc]
+Finished Parsing XDC File [C:/game_repo/cam_vga_full_test/.Xil/Vivado-1968-yao-PC/dcp/mb_wrapper_late.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1875.734 ; gain = 28.453
+Restoring placement.
+Restored 6864 out of 6864 XDEF sites from archive | CPU: 9.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Generating merged BMM file for the design top 'mb_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 400 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 94 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 254 instances
+
+open_run: Time (s): cpu = 00:01:16 ; elapsed = 00:00:56 . Memory (MB): peak = 2145.730 ; gain = 1089.879
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Mon Apr 06 01:25:23 2015] Launched impl_1...
+Run output will be captured here: C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/runme.log
+open_bd_design {C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd}
+Adding component instance block -- xilinx.com:ip:microblaze:9.3 - microblaze_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.0 - microblaze_0_xlconcat
+Adding component instance block -- xilinx.com:ip:mdm:3.1 - mdm_1
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:mig_7series:2.0 - mig_7series_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_81M
+Adding component instance block -- xilinx.com:ip:util_vector_logic:1.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:user:ov7670_top:1.0 - ov7670_top_0
+Adding component instance block -- xilinx.com:user:delta_calc:1.0 - delta_calc_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - lmb_bram
+Successfully read diagram <mb> from BD file <C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd>
+open_bd_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2412.891 ; gain = 202.219
+export_hardware [get_files C:/game_repo/cam_vga_full_test/dm_test.srcs/sources_1/bd/mb/mb.bd] [get_runs impl_1] -bitstream
+Exporting to file C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [BD 41-436] exporting bit file 'C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper.bit'...
+INFO: [BD 41-438] exporting bmm file 'C:/game_repo/cam_vga_full_test/dm_test.runs/impl_1/mb_wrapper_bd.bmm'...
+launch_sdk -bit C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper.bit -bmm C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper_bd.bmm -workspace C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -bit C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper.bit -bmm C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb_wrapper_bd.bmm -workspace C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export -hwspec C:/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/hw/mb.xml
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 06 01:34:34 2015...

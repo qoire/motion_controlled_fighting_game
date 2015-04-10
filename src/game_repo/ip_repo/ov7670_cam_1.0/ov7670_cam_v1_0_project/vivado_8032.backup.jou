@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sat Feb 21 01:39:45 2015
+# Process ID: 7756
+# Log file: D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project/vivado.log
+# Journal file: D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/ov7670_cam_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Xilinx_proj\ip_repo\ov7670_cam_1.0\ov7670_cam_v1_0_project\ov7670_cam_v1_0_project.xpr}
+ipx::open_ipxact_file {D:/Xilinx_proj/ip_repo/ov7670_cam_1.0/component.xml}
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Xilinx_proj/ip_repo/ov7670_cam_1.0
