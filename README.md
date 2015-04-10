@@ -17,6 +17,12 @@ If you wish to properly build the main system:
 To view documents support/describing the system:
 1. Navigate to docs, look for final_report.pdf, ECE532_presentation_slides.pdf
 -----------------------------------------------------
+### E. Authors
+#### Group members:
+Syed Talal Ashraf
+Syed Muhammad Adnan Karim
+Yao Sun
+-----------------------------------------------------
 ### F. Acknowledgements
 Parts of the OV7670_top module was derived from Professor Chow's sample code (not included here)
 
@@ -25,9 +31,3 @@ The code for communication between the OV7670 pmod camera and the Xilinx VDMA IP
 The only changes made are the output format of the 32bit piece of data from RGBA (8:8:8:8) to RGB444
 
 [system_setup]: https://cloud.githubusercontent.com/assets/4521292/7080333/6a9e7392-defe-11e4-9a9e-a2a1cae01f35.png
------------------------------------------------------
-### G. Contributions
-#### Group members:
-Syed Talal Ashraf
-Syed Muhammad Adnan Karim
-Yao Sun
