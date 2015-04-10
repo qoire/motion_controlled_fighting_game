@@ -19,7 +19,7 @@ If you wish to properly build the main system:
 
 ### D. Repository Structure
 The repository is structured with source code located in /src/ folder and documents located in /docs/ folder. The file sturcture under /docs/ is flat with all documents being placed in one folder.
-Important locations are located in:
+Important locations are located in: <br />
 [Main Hardware System](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test) <br />
 [helloworld.c:](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/test1/src) <br />
 [Delta_Calc IP](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/ip_repo/delta_calc_1.0) <br />
