@@ -7,18 +7,31 @@ A PMOD Camera is used to obtain visual input from the user. The camera operates 
 Hardware System (file is huge feel free to click in!):
 ![alt text][system_setup]
 
-### B. How to Use
+The see further output of the system, please view [this](https://youtu.be/9qCd3vVU7Oc) video.
+
+### C. How to Use
 We have included software, hardware, and the algorithm we intended to implement in MATLAB in the /src folder. 
 If you wish to properly build the main system:
+
 1. Navitage to /src/game_repo/cam_vga_full_test and open dm_test.xpr with Vivado
 2. Generate bitstream with Vivado and export to SDK
-3. Within the SDK there could be multiple test projects, open up test1 and the associated support package (test1_bsd). All software source code should be present inside helloworld.c
+3. Within the SDK there could be multiple test projects, open up test1 and the associated support package (test1_bsd).
+
+### D. Repository Structure
+The repository is structured with source code located in /src/ folder and documents located in /docs/ folder. The file sturcture under /docs/ is flat with all documents being placed in one folder.
+Important locations are located in:
+[Main Hardware System](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test) <br />
+[helloworld.c:](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/test1/src) <br />
+[Delta_Calc IP](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/ip_repo/delta_calc_1.0) <br />
+[ov7670_top IP](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/ip_repo/ovtop) <br />
+
+
 
 ### E. Authors
 #### Group members:
-Syed Talal Ashraf 
-Syed Muhammad Adnan Karim 
-Yao Sun 
+* Syed Talal Ashraf
+* Syed Muhammad Adnan Karim
+* Yao Sun
 
 ### F. Acknowledgements
 Parts of the OV7670_top module was derived from Professor Chow's sample code (not included here)
