@@ -21,7 +21,7 @@ If you wish to properly build the main system:
 The repository is structured with source code located in /src/ folder and documents located in /docs/ folder. The file sturcture under /docs/ is flat with all documents being placed in one folder.
 Important locations are located in: <br />
 [Main Hardware System](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test) <br />
-[helloworld.c:](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/test1/src) <br />
+[Software Directory (helloworld.c)](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/cam_vga_full_test/dm_test.sdk/SDK/SDK_Export/test1/src) <br />
 [Delta_Calc IP](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/ip_repo/delta_calc_1.0) <br />
 [ov7670_top IP](https://github.com/qoire/motion_controlled_fighting_game/tree/master/src/game_repo/ip_repo/ovtop) <br />
 
@@ -37,7 +37,7 @@ Important locations are located in: <br />
 Parts of the OV7670_top module was derived from Professor Chow's sample code (not included here)
 
 The code for communication between the OV7670 pmod camera and the Xilinx VDMA IP Core is a derivative of a VHDL code found here:
-[Code](http://lauri.xn--vsandi-pxa.com/hdl/zybo-ov7670-to-vga.html)
+[Code](http://lauri.xn--vsandi-pxa.com/hdl/zynq/xilinx-video-capture.html)
 The only changes made are the output format of the 32bit piece of data from RGBA (8:8:8:8) to RGB444
 
 [system_setup]: https://cloud.githubusercontent.com/assets/4521292/7080333/6a9e7392-defe-11e4-9a9e-a2a1cae01f35.png
